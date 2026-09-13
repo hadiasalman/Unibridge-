@@ -2,6 +2,7 @@ import hashlib
 import os
 import sqlite3
 import streamlit as st
+try:
 from google import genai
 except ImportError:
 import google.genai as genai
