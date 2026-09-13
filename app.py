@@ -3,10 +3,9 @@ import os
 import sqlite3
 import streamlit as st
 try:
-from google import genai
+    from google import genai
 except ImportError:
-import google.genai as genai
-from google.genai import errors
+    import google.genai as genai
 
 # ============================================================
 # 1. PAGE & SYSTEM INITIALIZATION
