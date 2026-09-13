@@ -13,8 +13,6 @@ Original file is located at
 # Run once in Google Colab/Jupyter:
 # !pip install -q -U gradio
 # ============================================================
-
-import gradio as gr
 from copy import deepcopy
 
 APP_TITLE = "UniBridge"
