@@ -2,7 +2,9 @@ import hashlib
 import os
 import sqlite3
 import streamlit as st
-from google import genai
+  from google import genai
+except ImportError:
+  import google.genai as genai
 from google.genai import errors
 
 # ============================================================
